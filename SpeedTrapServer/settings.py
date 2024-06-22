@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-nknyy(1rjxxx=-%9$j@d!$cig%4-(7wufhfp=t1+vsz0%a1rpd'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['speedingiscool.loclx.io', '127.0.0.1']
 

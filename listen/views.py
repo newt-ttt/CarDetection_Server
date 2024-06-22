@@ -54,6 +54,8 @@ def save(request):
             
             return HttpResponse("SpeedInstance has been sucessfully acknowledged and saved.")
         except:
+            print(request.headers["captured-speed"])
+            print("There has been an error processing your request")
             return HttpResponse("There has been an error processing your request")
     else: 
         return HttpResponse("Please use POST")
